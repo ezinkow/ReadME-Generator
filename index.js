@@ -99,8 +99,29 @@ inquirer
         // const licenseIcon = 
     // }
 .then((response) => {
-const mdOutput = `
-# ${response.title}
+    if (response.license === "CC"){
+        var license = "Creative Commons";
+        var img = '<img src="Images/CC.png" width="100" style="float:right">'
+    }
+        else if (response.license === "MIT"){
+            var license = "The MIT License";
+            var img = '<img src="Images/MIT.png" width="100" style="float:right">'
+        }
+        else if (response.license === "BSD"){
+            var license = "BSD Licenses";
+            var img = '<img src="Images/BSD.png" width="100" style="float:right">'
+        }
+        else if (response.license === "LGPL"){
+            var license = "GNU Lesser General Public License";
+            var img = '<img src="Images/LGPL.png" width="100" style="float:right">'
+        }
+        else if (response.license === "WTFPL"){
+            var license = "Do What The Fuck You Want To Public License";
+            var img = '<img src="Images/WTFPL.png" width="100" style="float:right">'
+        }
+        
+const readMeOutput = `
+# ${response.title}${img}
 ## Description:
 ${response.description}<br>
 Link to website: [${response.link}](${response.link})
@@ -118,7 +139,7 @@ ${response.installation}
 ## Usage:
 ${response.usage}
 ## License:
-This website is licensed by ${response.license}.
+This website is licensed by ${license}.
 ## Contributing:
 ${response.contributing}
 ## Tests:
@@ -129,7 +150,7 @@ And be sure to check out my [GitHub page](github.com/${response.github})
 `;
         console.log('response:', response);
 
-fs.writeFile('ReadME.md', mdOutput, (err) =>
+fs.writeFile('ReadME.md', readMeOutput, (err) =>
     err
     ? console.error(err)
     : console.log('ReadME created successfully!')
