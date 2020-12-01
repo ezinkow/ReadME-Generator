@@ -1,28 +1,27 @@
 
-# ReadME generator
+# rtjurstj
 ## Description:
-makes a readme
-Link to website: [google.com](google.com)
+tstsz<br>
+Link to website: [tdesu](tdesu)
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation:
-laksdf
+tudtr
 ## Usage:
-asldkfasd
+u
 ## License:
-flaskdfa
+This website is licensed by WTFPL.
 ## Contributing:
-sdflaksdf
+edtjusejusedeu
 ## Tests:
-lakshdf
+hyhu
 ## Questions:
-You may contact Elan at ezinkow@gmail.com
-And be sure to check out my [GitHub page](github.com/ezinkow)
+You may contact jushju at sjudet
+And be sure to check out my [GitHub page](github.com/trture)

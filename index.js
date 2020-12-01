@@ -50,9 +50,16 @@ inquirer
             name: 'usage',
         },
         {
-            type: 'input',
+            type: 'list',
             message: 'Please give any license information:',
             name: 'license',
+            choices: [
+                'MIT',
+                'BSD',
+                'LGPL',
+                'WTFPL',
+                'CC',
+            ]
         },
         {
             type: 'input',
@@ -84,12 +91,18 @@ inquirer
     ])
 
     //Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+    // const imgDiv = $("<img>")
+    // // if (response.license === CC){
+    //     const license = "Creative Commons";
+    //     imgDiv.attr("src","Images/CC.png") 
 
+        // const licenseIcon = 
+    // }
 .then((response) => {
-    const mdOutput = `
+const mdOutput = `
 # ${response.title}
 ## Description:
-${response.description}
+${response.description}<br>
 Link to website: [${response.link}](${response.link})
 ## Table of Contents
 
@@ -105,13 +118,13 @@ ${response.installation}
 ## Usage:
 ${response.usage}
 ## License:
-${response.license}
+This website is licensed by ${response.license}.
 ## Contributing:
 ${response.contributing}
 ## Tests:
 ${response.tests}
 ## Questions:
-You may contact ${response.name} at ${response.email}
+You may contact ${response.name} at ${response.email}<br>
 And be sure to check out my [GitHub page](github.com/${response.github})
 `;
         console.log('response:', response);
