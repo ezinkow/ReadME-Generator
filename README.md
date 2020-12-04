@@ -1,6 +1,6 @@
 
 
-# ReadMe Generator<img src="Images/CC.png" width="100" style="float:right">
+# ReadMe Generator
 ## Description:
 The app creates a ReadMe markdown file based on the answers given in the command line<br>
 Link to website: [https://ezinkow.github.io/ReadME-Generator/](https://ezinkow.github.io/ReadME-Generator/)
@@ -17,6 +17,7 @@ Link to website: [https://ezinkow.github.io/ReadME-Generator/](https://ezinkow.g
 Not yet created
 ## Usage:
 enter node index.js in the command line to bring up the questions
+https://drive.google.com/file/d/1HU1DP6cqGB0gEs7vU9lCUHMww5fOWxGk/view
 ## License:
 This website is licensed by Creative Commons.
 ## Contributing:
