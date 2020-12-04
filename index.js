@@ -1,7 +1,9 @@
+//import npms
 const inquirer = require('inquirer');
 const fs = require('fs');
 
 inquirer
+//questions to print to command line
     .prompt([
         {
             type: 'input',
@@ -68,8 +70,9 @@ inquirer
 
        
     ])
-//
+//response function
 .then((response) => {
+    //conditionals for license question
     if (response.license === "CC"){
         var license = "Creative Commons";
         var img = '<img src="Images/CC.png" width="100" style="float:right">'
@@ -118,13 +121,15 @@ ${response.contributing}
 ${response.tests}
 ## Questions:
 You may contact ${response.name} at ${response.email}<br>
-And be sure to check out my [GitHub page](github.com/${response.github})
+And be sure to check out my [GitHub page](https://github.com/${response.github})
 `;
         console.log('response:', response);
-
+//creates new file called "ReadME.md"
 fs.writeFile('ReadME.md', readMeOutput, (err) =>
     err
+    //tell user if there is an error
     ? console.error(err)
+    //or if it was created successfully
     : console.log('ReadME created successfully!')
 );
 
