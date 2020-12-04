@@ -1,8 +1,9 @@
 
-# alskdhgas<img src="Images/WTFPL.png" width="100" style="float:right">
+
+# ReadMe Generator<img src="Images/CC.png" width="100" style="float:right">
 ## Description:
-dgsalkdgha<br>
-Link to website: [sdkghalskdg](sdkghalskdg)
+The app creates a ReadMe markdown file based on the answers given in the command line<br>
+Link to website: [https://ezinkow.github.io/ReadME-Generator/](https://ezinkow.github.io/ReadME-Generator/)
 ## Table of Contents
 
 * [Installation](#installation)
@@ -13,15 +14,15 @@ Link to website: [sdkghalskdg](sdkghalskdg)
 * [Questions](#questions)
 
 ## Installation:
-asdglkskdgh
+Not yet created
 ## Usage:
-sdhg
+enter node index.js in the command line to bring up the questions
 ## License:
-This website is licensed by Do What The Fuck You Want To Public License.
+This website is licensed by Creative Commons.
 ## Contributing:
-alskdgh
+Not available yet
 ## Tests:
-sadgalskdgh
+Not available
 ## Questions:
-You may contact sdgslkdgh at alskdgh<br>
-And be sure to check out my [GitHub page](github.com/sadlkgh)
+You may contact Elan at ezinkow@gmail.com<br>
+And be sure to check out my [GitHub page](github.com/ezinkow)

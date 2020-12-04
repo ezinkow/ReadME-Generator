@@ -1,27 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-
-// // array of questions for user
-// const questions = [
-
-// ];
-
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
-
-
-//Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
 inquirer
     .prompt([
         {
@@ -54,11 +33,11 @@ inquirer
             message: 'Please give any license information:',
             name: 'license',
             choices: [
+                'CC',
                 'MIT',
                 'BSD',
                 'LGPL',
-                'WTFPL',
-                'CC',
+                'WTFPL'
             ]
         },
         {
@@ -89,15 +68,7 @@ inquirer
 
        
     ])
-
-    //Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-    // const imgDiv = $("<img>")
-    // // if (response.license === CC){
-    //     const license = "Creative Commons";
-    //     imgDiv.attr("src","Images/CC.png") 
-
-        // const licenseIcon = 
-    // }
+//
 .then((response) => {
     if (response.license === "CC"){
         var license = "Creative Commons";
@@ -119,8 +90,9 @@ inquirer
             var license = "Do What The Fuck You Want To Public License";
             var img = '<img src="Images/WTFPL.png" width="100" style="float:right">'
         }
-        
+// output of markdown file        
 const readMeOutput = `
+
 # ${response.title}${img}
 ## Description:
 ${response.description}<br>
@@ -157,7 +129,3 @@ fs.writeFile('ReadME.md', readMeOutput, (err) =>
 );
 
     });
-
-// fs.writeFile('ReadMe.md', process.argv[2], (err) =>
-//     err ? console.error(err) : console.log('ReadME Created!')
-// );
