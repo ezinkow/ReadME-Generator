@@ -17,7 +17,7 @@ Link to website: [https://ezinkow.github.io/ReadME-Generator/](https://ezinkow.g
 Not yet created
 ## Usage:
 enter node index.js in the command line to bring up the questions
-https://drive.google.com/file/d/1HU1DP6cqGB0gEs7vU9lCUHMww5fOWxGk/view
+https://youtu.be/dEtgiaxxzcA
 ## License:
 This website is licensed by Creative Commons.
 ## Contributing:
