@@ -19,7 +19,7 @@ Not yet created
 enter node index.js in the command line to bring up the questions<br>
 https://youtu.be/dEtgiaxxzcA
 ## License:
-This website is licensed by Creative Commons.
+This website is not licensed.
 ## Contributing:
 Not available yet
 ## Tests:
