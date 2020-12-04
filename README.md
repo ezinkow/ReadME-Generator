@@ -26,4 +26,4 @@ Not available yet
 Not available
 ## Questions:
 You may contact Elan at ezinkow@gmail.com<br>
-And be sure to check out my [GitHub page](github.com/ezinkow)
+And be sure to check out my [GitHub page](https://github.com/ezinkow)
